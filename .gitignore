@@ -205,3 +205,38 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# macOS
+# See https://github.com/github/gitignore/blob/main/Global/macOS.gitignore
+#
+.DS_Store
+.Trashes
+.fseventsd
+._*
+# History files
+.bash_history
+.zsh_history
+
+# VS Code
+# See https://github.com/github/gitignore/blob/main/Global/VSCode.gitignore
+#
+.vscode/
+# Settings
+.vscode/*.code-workspace
+# Local History
+.vscode/local_history
+
+# Docker
+# See https://github.com/github/gitignore/blob/main/Global/Docker.gitignore
+#
+# Build caches
+.docker/
+# Containers and volumes
+.docker-compose/
+# Log files
+*.log
+!README.md
+!LICENSE.txt
+
+# Environment variables
+.env
